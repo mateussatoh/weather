@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     let weatherIcon = document.querySelector('.weather-icon')
   
     let body = document.getElementById('body')
-    
+    let pageIcon = document.querySelector("link[rel='icon']")
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
@@ -23,8 +23,9 @@ window.addEventListener('load', () => {
 
             fetch(api)
             .then(response => {
-                console.log(response)
+               
                 return response.json()
+                
             })
             .then(data => {
                 console.log(data)
@@ -41,9 +42,11 @@ window.addEventListener('load', () => {
                 temperatureDegree.textContent = String(temperatureCelcius) + "°C" 
                 footerDescription.textContent = description
                 weatherIcon.src = iconURL
+                pageIcon.href = iconURL
                 body.style.backgroundImage = `url('./assets/img/${icon}.gif')`;
                 console.log(body.style.backgroundImage)
                 
+
             }) 
 
         
