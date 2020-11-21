@@ -41,7 +41,7 @@ body {
 
 .weather-data {
   height: 70%;
-  width: 40%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,5 +96,14 @@ body {
   font-style: italic;
   font-size: 2.8rem;
   padding: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 41.25%;
+  }
+  .weather-data {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
