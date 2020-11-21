@@ -102,6 +102,11 @@ body {
   * {
     font-size: 41.25%;
   }
+  body {
+    max-width: 100%;
+    height: auto;
+    background-position: 50% 50%;
+  }
   .weather-data {
     width: 100%;
   }
