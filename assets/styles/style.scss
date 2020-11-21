@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/04d.gif");
+
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -26,8 +27,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .weather-data {
@@ -41,7 +40,6 @@ body {
 
   border-radius: 1rem;
 
-  background-color: rgba(24, 41, 56, 0.75);
   color: white;
 }
 

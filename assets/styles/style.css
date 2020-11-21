@@ -19,7 +19,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../img/04d.gif");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -36,7 +35,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .weather-data {
@@ -56,7 +54,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 1rem;
-  background-color: rgba(24, 41, 56, 0.75);
   color: white;
 }
 
