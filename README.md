@@ -5,8 +5,8 @@
 <p align="center">
   <a href="#techs">Sobre</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
   <a href="#techs">Tecnologias</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
-  <a href="#learn">O que eu aprendi</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
-  <a href="#use">Como usar</a> &nbsp;&nbsp;&nbsp; 
+  <a href="#learn">O que eu aprendi</a>
+
 </p>
 
 <br>
@@ -40,29 +40,6 @@ Utilizei na montagem HTML, [Sass](https://sass-lang.com/) e JavaScript.
 
 <br>
 
-<h2 id="use">🔨 Como usar </h2>
-
-Clone esse repositório com o comando:
-```
-git clone https://github.com/mateussatoh/weather-gif.git
-```
-
-Vá para a pasta do projeto:
-```
-cd weather-gif
-```
-
-Instale todos as depêndencias:
-```
-npm install serve -D
-```
-
-Inicie o servidor de desenvolvimento:
-```
-npx serve . 
-```
-
-<br>
 
 👋 Made by Mateus Satoh. 
 [Get in touch!](https://www.linkedin.com/in/mateussatoh/)
