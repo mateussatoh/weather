@@ -16,9 +16,7 @@ window.addEventListener("load", () => {
       lat = position.coords.latitude;
       lng = position.coords.longitude;
 
-      const proxy = "https://cors-anywhere.herokuapp.com/";
-
-      const api = `${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=27190360986b27dd836b0500cabfd2cc&lang=pt_br&units=metric`;
+      const api = `api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=27190360986b27dd836b0500cabfd2cc&lang=pt_br&units=metric`;
 
       fetch(api)
         .then((response) => {
@@ -31,7 +29,7 @@ window.addEventListener("load", () => {
           const temperatureCelcius = Math.round(data.main.temp);
           const description = data.weather[0].description;
           const icon = data.weather[0].icon;
-         
+
           const iconURL = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
           const weatherDataColor = {
